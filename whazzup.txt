@@ -1,0 +1,54 @@
+!GENERAL
+VERSION = 1
+RELOAD = 1
+UPDATE = 20190209111659
+CONNECTED CLIENTS = 20
+CONNECTED SERVERS = 26
+!CLIENTS
+EGKK_CTR:ATC-ALAM:ATC-ALAM:ATC:122.800:51,1480560302734:-0,190277993679047:0:0::::::::::6:88:::::::::::::::::::::::::::
+HP1526CM:BLEW:BLEW:PILOT::9,36238174000879:-81,2680985695181:27816:404:/B738::::::::1200::::VFR:::::::::::::::JoinFS:::::::113:::
+N685TA:IV1026-Mario:IV1026-Mario:PILOT::45,6448883640461:8,7241509586584:778:0:/A320::::::::1200::::VFR:::::::::::::::JoinFS:::::::358:::
+108:::PILOT::30,4382884769551:-86,6226950574831:3255:406:/F22::::::::1200::::VFR:::::::::::::::JoinFS:::::::277:::
+FCYPG2A:FCY-RJ:FCY-RJ:PILOT::34,4436838840083:-10,3119500698807:38335:434:/B738::GCLP::LEMD::::2200::::IFR:::::::::::::::JoinFS:::::::034:::
+:::PILOT::21,0367239038538:-86,9360115910535:38180:454:/B789::::::::1200::::VFR:::::::::::::::JoinFS:::::::273:::
+:IV1301  -MidNight-:IV1301  -MidNight-:PILOT::39,2422788483542:52,8049781122613:38002:446:/A380::::::::1200::::VFR:::::::::::::::JoinFS:::::::295:::
+FCY0BPT:FCY-BPT (Bernard 21):FCY-BPT (Bernard 21):PILOT::45,8658839299169:1,27408515172511:4274:247:/Shorts 360::LFBL::LFSD::::6375::::IFR:::::::::::::::JoinFS:::::::017:::
+AFL532:AFL532:AFL532:PILOT::51,8127978216097:39,2266087133102:521:0:/AN24::::::::1200::::VFR:::::::::::::::JoinFS:::::::039:::
+SBGR_TWR:BVL-Server:BVL-Server:ATC:118.400:-23,4320755004883:-46,4695091247559:0:0::::::::::4:88:::::::::::::::::::::::::::
+UUEE_TWR:::ATC:122.800:55,9726409912109:37,4145889282227:0:0::::::::::4:88:::::::::::::::::::::::::::
+LFTW_TWR:::ATC:122.800:43,7574424743652:4,41634702682495:0:0::::::::::4:84:::::::::::::::::::::::::::
+ZKZQE:Lavon:Lavon:PILOT::9,30698531342791:-81,1112508409812:25622:405:/B738::::::::1200::::VFR:::::::::::::::JoinFS:::::::112:::
+737BZH:CY-JPC:CY-JPC:PILOT::48,723337183446:2,36246846483434:299:13:/B738::::::::5756::::VFR:::::::::::::::JoinFS:::::::075:::
+VEJACK:VE-JACK:VE-JACK:PILOT::53,6179220001038:19,2508324659111:24749:481:/A320CFM::LFPG::UUEE::::1200::::IFR:::::::::::::::JoinFS:::::::072:::
+ULLI_TWR:::ATC:122.800:59,80029296875:30,2625026702881:0:0::::::::::4:88:::::::::::::::::::::::::::
+IGICH:Pino:Pino:PILOT::40,5614585876465:15,7592668533325:2627:0:/P92::::::::1200::::VFR:::::::::::::::JoinFS:::::::000:::
+EAS5253:FSMorey:FSMorey:PILOT::23,0603294372559:-156,198333740234:37998:400:/B77W::CYQX::PHNL::::4214::::IFR:::::::::::::::JoinFS:::::::242:::
+MDN0001:Rafa:Rafa:PILOT::-34,5037956237793:-66,2654876708984:30948:432:/B738::::::::1200::::VFR:::::::::::::::JoinFS:::::::318:::
+8030:Zeb-Ace:Zeb-Ace:PILOT::69,6898422241211:18,9245433807373:36:0:/::::::::1200::::VFR:::::::::::::::JoinFS:::::::017:::
+!SERVERS
+95.141.35.71:95.141.35.71:Internet:ITALIANI VOLANTI:true:999
+198.27.64.165:198.27.64.165:Internet:CyberAvia:true:999
+212.83.161.79:212.83.161.79:6000:Internet:LCA - Les Copains d'Abord:true:999
+91.122.61.226:91.122.61.226:Internet:Orbiter:true:999
+162.248.88.180:aviator.digitalthemepark.com:Internet:DigitalThemePark:true:999
+176.9.29.69:176.9.29.69:Internet:SVRN.de:true:999
+94.102.98.69:94.102.98.69:Internet:Flight Sim Community:true:999
+94.208.196.246:94.208.196.246:Internet:HCC!FLIGHTSIMULATOR:true:999
+54.37.17.182:54.37.17.182:Internet:vRAF:true:999
+85.214.103.52:openairvirtual.eu:Internet:Open Air Virtual:true:999
+5.175.0.150:www.oneengineout.com:Internet:One Engine Out:true:999
+85.214.68.80:85.214.68.80:Internet:TN-Server:true:999
+93.39.83.98:93.39.83.98:Internet:BlogFSX:true:999
+24.157.68.12:joinfs.dvfchh.site:Internet:Deer Valley Flying Club:true:999
+197.101.53.219:197.101.53.219:Internet:SA Flight Simmers:true:999
+94.10.145.49:94.10.145.49:Internet:✈BlueIceSvr v1.4.25✈:true:999
+100.15.253.136:100.15.253.136:Internet:EasternHops Community:true:999
+89.22.150.168:89.22.150.168:Internet:-=Russia_HUB=-:true:999
+82.72.118.42:82.72.118.42:Internet:FSGG The Netherlands:true:999
+91.116.220.50:91.116.220.50:Internet:MUNDOAIRLINES:true:999
+3.95.25.191:3.95.25.191:Internet:ChillyIsIndeedAWilly:true:999
+70.35.201.70:70.35.201.70:Internet:01-FlyByWires:true:999
+65.255.140.205:65.255.140.205:Internet:Flight✈Ulimited✈Network:true:999
+73.95.119.74:73.95.119.74:Internet:FSX-Ace:true:999
+98.208.26.125:fsv.hopto.org:Internet:FSVintageAIR:true:999
+189.79.115.122:bvl.ddns.net:Internet:BVL-SERVER-HUNTS:true:999
