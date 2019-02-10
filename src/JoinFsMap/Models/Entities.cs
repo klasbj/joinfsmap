@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace JoinFsMap.Models {
 
@@ -17,6 +18,8 @@ namespace JoinFsMap.Models {
         public string UserName { get; set; }
 
         public Position Position { get; set; }
+
+        public virtual string Key => $"{Callsign}_{UserName}";
     }
 
     public class Atc : Entity {
@@ -33,6 +36,14 @@ namespace JoinFsMap.Models {
 
         public string AircraftTypeShort { get; set; }
 
-        public IList<(DateTime TimeStamp, Position Position)> Trail { get; set; } = new List<(DateTime TimeStamp, Position Position)>();
+        public IEnumerable<LoggedPosition> Trail { get; set; } = Enumerable.Empty<LoggedPosition>();
+
+        public override string Key => $"{Callsign}_{UserName}_{AircraftTypeShort}";
+    }
+
+    public class LoggedPosition {
+        public DateTime TimeStamp { get; set; }
+
+        public Position Position { get; set; }
     }
 }
