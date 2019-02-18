@@ -908,10 +908,22 @@
     "@svgr/core" "^2.4.1"
     loader-utils "^1.1.0"
 
+"@types/geojson@*":
+  version "7946.0.5"
+  resolved "https://registry.yarnpkg.com/@types/geojson/-/geojson-7946.0.5.tgz#9aea839ea5af4b1bc079f1d9fa977d48665e02b0"
+  integrity sha512-rLlMXpd3rdlrp0+xsrda/hFfOpIxgqFcRpk005UKbHtcdFK+QXAjhBAPnvO58qF4O1LdDXrcaiJxMgstCIlcaw==
+
 "@types/jest@24.0.0":
   version "24.0.0"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-24.0.0.tgz#848492026c327b3548d92be0352a545c36a21e8a"
   integrity sha512-kOafJnUTnMd7/OfEO/x3I47EHswNjn+dbz9qk3mtonr1RvKT+1FGVxnxAx08I9K8Tl7j9hpoJRE7OCf+t10fng==
+
+"@types/leaflet@*":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@types/leaflet/-/leaflet-1.4.1.tgz#5807f53b06d13dd2755426b7b4d48000e7c36a91"
+  integrity sha512-2Z4AM/kf8Yif7i0YazjG/ures+0zIarc4BDP8QqvcCIiI8GWbCxkfJLf7DWMtMPRZv0bh+a1ZSJRTuSwOtPzzQ==
+  dependencies:
+    "@types/geojson" "*"
 
 "@types/node@10.12.24":
   version "10.12.24"
@@ -933,6 +945,14 @@
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.8.0.tgz#c565f43f9d2ec911f9e0b8f3b74e25e67879aa3f"
   integrity sha512-Jp4ufcEEjVJEB0OHq2MCZcE1u3KYUKO6WnSuiU/tZeYeiZxUoQavfa/TZeiIT+1XoN6l0lQVNM30VINZFDeolQ==
   dependencies:
+    "@types/react" "*"
+
+"@types/react-leaflet@^1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@types/react-leaflet/-/react-leaflet-1.1.6.tgz#663bf2568a7017081406a85ae0f593f89e53cd7c"
+  integrity sha512-OSsVphTvQxacAmwySe/ju/ahhRoMnHmJzdc6tYjfTHAaSeLkJs8WSkBzdgsTu8tPLmhY0ULQ1KJ27ue5kU3zUQ==
+  dependencies:
+    "@types/leaflet" "*"
     "@types/react" "*"
 
 "@types/react@*", "@types/react@16.8.2":
